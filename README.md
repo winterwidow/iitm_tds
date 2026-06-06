@@ -67,7 +67,7 @@ A serverless FastAPI endpoint deployed on Vercel that processes telemetry data a
 
 ### 7. `unicode.py`
 
-- rocessed multiple datasets stored in different text encodings (CP-1252, UTF-8, and UTF-16) and performed cross-file data analysis.
+- Processed multiple datasets stored in different text encodings (CP-1252, UTF-8, and UTF-16) and performed cross-file data analysis.
 - Automatically detects and reads files with different encodings.
 - Handles Unicode character normalization and encoding differences.
 - Extracts symbol-value pairs from CSV and TSV files.
