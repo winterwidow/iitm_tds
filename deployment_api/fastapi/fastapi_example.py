@@ -3,6 +3,8 @@ from pydantic import BaseModel
 from typing import Optional, List
 import uuid
 
+# FastAPI app instance
+
 app = FastAPI(
     title="TDS Tasks API",
     description="A simple task management API for the TDS course",
@@ -29,25 +31,27 @@ tasks: dict[str, Task] = {}
 
 
 # --- Routes ---
+
+# 1 - List all tasks
 @app.get("/tasks", response_model=List[Task])
 def list_tasks():
     return list(tasks.values())
 
-
+# 2 - Create a new task
 @app.post("/tasks", response_model=Task, status_code=201)
 def create_task(payload: TaskCreate):
     task = Task(id=str(uuid.uuid4()), **payload.model_dump())
     tasks[task.id] = task
     return task
 
-
+# 3 - Get a task by ID
 @app.get("/tasks/{task_id}", response_model=Task)
 def get_task(task_id: str):
     if task_id not in tasks:
         raise HTTPException(404, "Task not found")
     return tasks[task_id]
 
-
+# 4 - Update a task by ID
 @app.put("/tasks/{task_id}", response_model=Task)
 def update_task(task_id: str, payload: TaskCreate):
     if task_id not in tasks:
@@ -55,7 +59,7 @@ def update_task(task_id: str, payload: TaskCreate):
     tasks[task_id] = Task(id=task_id, **payload.model_dump())
     return tasks[task_id]
 
-
+# 5 - Delete a task by ID
 @app.delete("/tasks/{task_id}", status_code=204)
 def delete_task(task_id: str):
     if task_id not in tasks:
