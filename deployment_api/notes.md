@@ -2,7 +2,7 @@
 
 FastAPI is used when you want to turn ``Python`` code into an ``HTTP API``.
 
-![FastAPI image](image.png)
+![FastAPI image](C:\Users\naija\iitm\iitm_tds\deployment_api\fastapi\image.png)
 
 A small CRUD API uses the following pattern repeatedly:
 ## 1. routes
@@ -41,7 +41,7 @@ Important status codes:
 500 Server Error       bug or unexpected failure
 ```
 
-[fastapi_example.py](fastapi_example.py)
+[fastapi_example.py](C:\Users\naija\iitm\iitm_tds\deployment_api\fastapi\fastapi_example.py)
 
 the above file can be tested with curl:
 
@@ -63,3 +63,8 @@ curl -X PATCH "http://localhost:8000/tasks/TASK_ID?done=true"
 # Delete task
 curl -X DELETE "http://localhost:8000/tasks/TASK_ID"
 ```
+
+***
+
+# 2. CORS and Middleware
+
