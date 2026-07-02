@@ -71,26 +71,21 @@ def effective_config(request: Request):
     # --------------------
     # CLI overrides
     # --------------------
-    for key, value in request.query_params.multi_items():
-
-        if not key.startswith("set-"):
+    for item in request.query_params.getlist("set"):
+        if "=" not in item:
             continue
 
-        field = key[4:]
+        key, value = item.split("=", 1)
 
-        if field == "port":
+        if key == "port":
             config["port"] = int(value)
-
-        elif field == "workers":
+        elif key == "workers":
             config["workers"] = int(value)
-
-        elif field == "debug":
+        elif key == "debug":
             config["debug"] = to_bool(value)
-
-        elif field == "log_level":
+        elif key == "log_level":
             config["log_level"] = value
-
-        elif field == "api_key":
+        elif key == "api_key":
             config["api_key"] = value
 
     # mask secret
