@@ -14,7 +14,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-load_dotenv()
+load_dotenv(override=False)
 
 
 DEFAULTS = {
@@ -89,6 +89,6 @@ def effective_config(request: Request):
             config["api_key"] = value
 
     # mask secret
-    config["api_key"] = "*****"
+    config["api_key"] = "****"
 
     return config
