@@ -2,7 +2,7 @@
 
 FastAPI is used when you want to turn ``Python`` code into an ``HTTP API``.
 
-![FastAPI image](C:\Users\naija\iitm\iitm_tds\deployment_api\fastapi\image.png)
+[FastAPI image](C:\Users\naija\iitm\iitm_tds\deployment_api\fastapi\image.png)
 
 A small CRUD API uses the following pattern repeatedly:
 ## 1. routes
