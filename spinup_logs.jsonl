@@ -1,0 +1,50 @@
+{"id":"log-038","ts":"2026-05-25T04:00:49Z","region":"syd","service":"release-bot","severity":"notice","message":"feature flag rollout advanced to production cohort"}
+{"id":"log-002","ts":"2026-05-20T11:21:02Z","region":"sin","service":"auth-gateway","severity":"notice","message":"MFA challenge failed after repeated attempts"}
+{"id":"log-007","ts":"2026-05-21T15:42:40Z","region":"syd","service":"warehouse-loader","severity":"error","message":"daily export contained invalid UTF-8 payload"}
+{"id":"log-025","ts":"2026-05-18T22:57:16Z","region":"syd","service":"auth-gateway","severity":"notice","message":"MFA challenge failed after repeated attempts"}
+{"id":"log-045","ts":"2026-05-15T01:21:19Z","region":"fra","service":"release-bot","severity":"notice","message":"migration completed before service restart"}
+{"id":"log-014","ts":"2026-05-27T16:30:47Z","region":"gru","service":"release-bot","severity":"info","message":"feature flag rollout advanced to production cohort"}
+{"id":"log-029","ts":"2026-05-15T12:28:36Z","region":"sin","service":"auth-gateway","severity":"notice","message":"MFA challenge failed after repeated attempts"}
+{"id":"log-004","ts":"2026-05-18T05:07:21Z","region":"gru","service":"auth-gateway","severity":"warning","message":"impossible travel login blocked by policy"}
+{"id":"log-043","ts":"2026-05-14T04:53:43Z","region":"bom","service":"release-bot","severity":"error","message":"container image pinned for blue green release"}
+{"id":"log-023","ts":"2026-05-17T15:26:43Z","region":"sin","service":"warehouse-loader","severity":"notice","message":"schema drift detected nullable column mismatch"}
+{"id":"log-016","ts":"2026-05-10T10:34:56Z","region":"syd","service":"billing-api","severity":"debug","message":"subscription renewal failed during payment capture"}
+{"id":"log-050","ts":"2026-05-11T13:41:01Z","region":"fra","service":"warehouse-loader","severity":"notice","message":"daily export contained invalid UTF-8 payload"}
+{"id":"log-033","ts":"2026-05-24T09:55:36Z","region":"gru","service":"helpdesk-sync","severity":"warning","message":"knowledge base article linked in reply"}
+{"id":"log-001","ts":"2026-05-18T22:51:44Z","region":"syd","service":"billing-api","severity":"debug","message":"invoice webhook returned duplicate charge warning"}
+{"id":"log-005","ts":"2026-05-21T11:45:03Z","region":"syd","service":"helpdesk-sync","severity":"warning","message":"agent added internal note to resolved ticket"}
+{"id":"log-046","ts":"2026-05-16T20:51:31Z","region":"sin","service":"billing-api","severity":"error","message":"card processor declined settlement batch"}
+{"id":"log-010","ts":"2026-05-18T23:03:26Z","region":"syd","service":"helpdesk-sync","severity":"warning","message":"customer asked for invoice copy in chat"}
+{"id":"log-008","ts":"2026-05-16T21:55:59Z","region":"syd","service":"billing-api","severity":"debug","message":"refund queue stalled after gateway timeout"}
+{"id":"log-049","ts":"2026-05-21T17:47:54Z","region":"sin","service":"warehouse-loader","severity":"notice","message":"daily export contained invalid UTF-8 payload"}
+{"id":"log-011","ts":"2026-05-15T08:46:26Z","region":"bom","service":"helpdesk-sync","severity":"notice","message":"customer asked for invoice copy in chat"}
+{"id":"log-032","ts":"2026-05-14T07:02:39Z","region":"syd","service":"warehouse-loader","severity":"notice","message":"dedupe job found conflicting product keys"}
+{"id":"log-041","ts":"2026-05-12T01:32:19Z","region":"gru","service":"billing-api","severity":"debug","message":"subscription renewal failed during payment capture"}
+{"id":"log-018","ts":"2026-05-22T14:06:46Z","region":"sin","service":"warehouse-loader","severity":"warning","message":"daily export contained invalid UTF-8 payload"}
+{"id":"log-027","ts":"2026-05-12T14:03:36Z","region":"syd","service":"helpdesk-sync","severity":"info","message":"knowledge base article linked in reply"}
+{"id":"log-021","ts":"2026-05-23T10:00:24Z","region":"syd","service":"release-bot","severity":"info","message":"migration completed before service restart"}
+{"id":"log-012","ts":"2026-05-24T04:22:00Z","region":"sin","service":"billing-api","severity":"warning","message":"refund queue stalled after gateway timeout"}
+{"id":"log-026","ts":"2026-05-17T15:56:54Z","region":"fra","service":"warehouse-loader","severity":"warning","message":"daily export contained invalid UTF-8 payload"}
+{"id":"log-040","ts":"2026-05-24T20:00:32Z","region":"sin","service":"warehouse-loader","severity":"warning","message":"schema drift detected nullable column mismatch"}
+{"id":"log-015","ts":"2026-05-25T02:18:00Z","region":"bom","service":"helpdesk-sync","severity":"warning","message":"knowledge base article linked in reply"}
+{"id":"log-037","ts":"2026-05-17T02:19:20Z","region":"syd","service":"warehouse-loader","severity":"error","message":"dedupe job found conflicting product keys"}
+{"id":"log-019","ts":"2026-05-21T11:16:14Z","region":"fra","service":"warehouse-loader","severity":"info","message":"CSV ingest rejected rows with missing customer_id"}
+{"id":"log-013","ts":"2026-05-21T00:25:16Z","region":"syd","service":"helpdesk-sync","severity":"notice","message":"weekly satisfaction survey digest delivered"}
+{"id":"log-048","ts":"2026-05-18T10:40:15Z","region":"fra","service":"release-bot","severity":"debug","message":"feature flag rollout advanced to production cohort"}
+{"id":"log-030","ts":"2026-05-12T00:12:32Z","region":"syd","service":"billing-api","severity":"warning","message":"invoice webhook returned duplicate charge warning"}
+{"id":"log-017","ts":"2026-05-14T14:04:41Z","region":"syd","service":"billing-api","severity":"error","message":"invoice webhook returned duplicate charge warning"}
+{"id":"log-031","ts":"2026-05-10T01:37:43Z","region":"bom","service":"auth-gateway","severity":"notice","message":"MFA challenge failed after repeated attempts"}
+{"id":"log-024","ts":"2026-05-16T09:56:58Z","region":"gru","service":"billing-api","severity":"notice","message":"refund queue stalled after gateway timeout"}
+{"id":"log-003","ts":"2026-05-21T06:43:17Z","region":"syd","service":"release-bot","severity":"notice","message":"container image pinned for blue green release"}
+{"id":"log-034","ts":"2026-05-27T13:15:22Z","region":"bom","service":"helpdesk-sync","severity":"warning","message":"agent added internal note to resolved ticket"}
+{"id":"log-042","ts":"2026-05-17T01:34:57Z","region":"syd","service":"warehouse-loader","severity":"warning","message":"daily export contained invalid UTF-8 payload"}
+{"id":"log-035","ts":"2026-05-26T19:28:14Z","region":"sin","service":"release-bot","severity":"warning","message":"feature flag rollout advanced to production cohort"}
+{"id":"log-047","ts":"2026-05-21T23:00:17Z","region":"sin","service":"release-bot","severity":"debug","message":"migration completed before service restart"}
+{"id":"log-036","ts":"2026-05-11T21:33:29Z","region":"syd","service":"auth-gateway","severity":"notice","message":"impossible travel login blocked by policy"}
+{"id":"log-020","ts":"2026-05-27T13:27:23Z","region":"fra","service":"release-bot","severity":"error","message":"migration completed before service restart"}
+{"id":"log-006","ts":"2026-05-18T18:37:37Z","region":"syd","service":"warehouse-loader","severity":"warning","message":"daily export contained invalid UTF-8 payload"}
+{"id":"log-028","ts":"2026-05-22T21:27:43Z","region":"bom","service":"warehouse-loader","severity":"error","message":"schema drift detected nullable column mismatch"}
+{"id":"log-039","ts":"2026-05-26T22:05:14Z","region":"fra","service":"billing-api","severity":"notice","message":"subscription renewal failed during payment capture"}
+{"id":"log-022","ts":"2026-05-25T08:11:27Z","region":"syd","service":"billing-api","severity":"notice","message":"subscription renewal failed during payment capture"}
+{"id":"log-009","ts":"2026-05-17T10:06:45Z","region":"gru","service":"auth-gateway","severity":"debug","message":"impossible travel login blocked by policy"}
+{"id":"log-044","ts":"2026-05-12T16:38:21Z","region":"sin","service":"warehouse-loader","severity":"notice","message":"daily export contained invalid UTF-8 payload"}

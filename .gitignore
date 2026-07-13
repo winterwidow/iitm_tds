@@ -3,3 +3,5 @@ tds-hello-naija/
 tds-daily-naija/
 __pycache__/
 *.py[cod]
+.env
+*.env
