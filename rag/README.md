@@ -6,6 +6,7 @@ FAISS performs nearest neighbour search on high dimensional vectors (embeddings)
 
 The question FAISS answers is "which stored vector is most similar to my query".
 
+### 1. Module imports
 ``` 
 import faiss
 import numpy
@@ -14,6 +15,7 @@ import numpy
 - numpy is used for creating vectors.
 - faiss indexes the vectors and performs similarity search.
 
+### 2. Define the data
 ```
 d = 1536
 n = 10001
@@ -25,6 +27,8 @@ n = 10001
 so the shape of the matrix would be `` (1000, 1536) ``.
 
 FAISS requires vectors to be stored as 32 bit floating point values. 
+
+### 3. Create an index
 
 ```
 index = faiss.IndexFlatL2(d)
@@ -43,6 +47,8 @@ Other similarity measures:
 3. Cosine Similarity: Measures the angle between two vectors --- Mostly used for test embeddings.
 
 Cosine Similarity is used because it tells the direction of vectors. In text embeddings, directions capture the semantic meaning better than magnitude.
+
+### 4. Query and database creation
 
 ```
 docs = [
@@ -65,6 +71,8 @@ query_vector = embedding_model.encode(
 )
 ```
 This is how an actual query from the user can be created and embedded.
+
+### 5. Searching
 
 ```
 distances, indices = index.search(query, k=5)
