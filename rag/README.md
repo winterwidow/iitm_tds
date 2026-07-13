@@ -84,22 +84,40 @@ distances, indices = index.search(query, k=5)
  
 ``
 Generate vectors
+
         │
+
         ▼
+
 Create FAISS Index
+
         │
+
         ▼
+
 Add vectors
+
         │
+
         ▼
+
 Generate query
+
         │
+
         ▼
+
 Compute distance to every vector
+
         │
+
         ▼
+
 Sort by smallest distance
+
         │
+
         ▼
+        
 Return top 5 nearest vectors
 ``
