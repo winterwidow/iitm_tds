@@ -12,8 +12,13 @@ import numpy
 - numpy is used for creating vectors.
 - faiss indexes the vectors and performs similarity search
 
-`` 
+```
 d = 1536
 n = 10001
-``
+```
+
+d - number of dimensions in each vector
+n - number of vectors
+
+so the shape of the matrix would be `` (1000, 1536) ``
 
