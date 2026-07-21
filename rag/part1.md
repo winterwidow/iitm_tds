@@ -89,21 +89,13 @@ distances, indices = index.search(query, k=5)
 
 ### 6. Overall Workflow:
 
-``
-Generate vectors
-
-Create FAISS Index
-
-Add vectors
-
-Generate query
-
-Compute distance to every vector
-
-Sort by smallest distance
-
-Return top 5 nearest vectors
-``
+- Generate vectors
+- Create FAISS Index
+- Add vectors
+- Generate query
+- Compute distance to every vector
+- Sort by smallest distance
+- Return top 5 nearest vectors
 
 ### 7. HNSW - Hierarchical Navigable Small World
 
